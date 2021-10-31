@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://www.flaticon.com/svg/vstatic/svg/616/616430.svg?token=exp=1611653576~hmac=1aabbabd3bc8928fe388dc539668ec55">
+    <link rel="stylesheet" href="./assets/css/cats.css">
+    <title> Questionnaire </title>
+</head>
+
+<body class="body">
+    <form>
+        <div class="main">
+            <div class="form">
+                <div class="name">
+                    <label for="name"> * </label>
+                    <input type="text" id="name" placeholder="Официальное имя Ушастого" required>
+                </div>
+                <div>
+                    <br><label for="nameHome"> * </label>
+                    <input type="text" id="nameHome" placeholder="Домашнее имя Ушастого" required>
+                </div>
+                <div>
+                    <br><label for="nameHuman"> * </label>
+                    <input type="text" id="nameHuman" placeholder="Имя человека Ушастого" required>
+                </div>
+                <div>
+                    <br><label for="telHuman"> * </label>
+                    <input type="tel" id="telHuman" placeholder="Телефон человека Ушастого" required>
+                </div>
+                <div>
+                    <br> <label for="mailHuman"> * </label>
+                    <input type="email" id="mailHuman" placeholder="Почта человека Ушастого" required>
+                </div>
+                <div>
+                    <p class="incline"> Поля отмеченые &#8251; обязательны к заполнению </p>
+                </div>
+            </div>
+            <div class="breed">
+                <p class="breed_text"> Порода Ушастого </p>
+                <select>
+                    <option value="."> --- </option>
+                    <option value="Bengali"> Бенгальская </option>
+                    <option value="NevskayaMasquerade"> Невская Маскарадная </option>
+                    <option value="NorwegianForest"> Норвежский лесной </option>
+                    <option value="MaineCoon"> Мейн Кун </option>
+                    <option value="Sphinx"> Сфинкс </option>
+                    <option value="Scottish"> Скоттиш </option>
+                </select>
+            </div>
+            <div class="sex_cat"> <br>
+                <label for="sex" class="sex"> Пол Ушастого </label> <br>
+                <br><input type="radio" name="sex" id="sex" class="girl" /> Её Величество
+                <br><input type="radio" name="sex" class="boy" /> Его Величество
+            </div>
+            <div class="comment">
+                <p class="question"> Вопросы Ушастого </p>
+                <textarea rows="5" cols="18"> </textarea>
+            </div>
+            <div class="file">
+                <br>
+                <p class="foto"> Фото Ушастого </p>
+                <input type="file">
+            </div>
+        </div>
+        <div class="button">
+            <br> <button type="submit" class="btn"> Сохранить </button>
+        </div>
+    </form>
+
+
+    <script src="./assets/js/cats.js"></script>
+</body>
+
+</html>

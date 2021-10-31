@@ -1,0 +1,94 @@
+.body {
+    background: linear-gradient(45deg, rgba(76, 253, 224, 0.808), rgb(121, 250, 170), rgba(129, 255, 140, 0.699), rgba(250, 252, 120, 0.808), rgb(196, 131, 250), rgba(129, 251, 255, 0.699));
+    padding: 2px;
+    margin: 3px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form {
+    text-align: center;
+    background-color: rgba(67, 140, 150, 0.527);
+    border: 2px solid rgba(4, 0, 255, 0.548);
+    border-radius: 9px;
+    padding: 1%;
+    margin: 3px;
+}
+
+.form_label,
+.incline,
+.breed_text,
+.foto,
+.question,
+.sex {
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        Geneva,
+        Verdana,
+        sans-serif;
+    color: rgb(18, 0, 83);
+}
+
+.breed {
+    text-align: center;
+    background-color: rgba(68, 196, 96, 0.527);
+    border: 2px solid rgba(204, 0, 255, 0.548);
+    border-radius: 9px;
+    padding: 1%;
+    margin: 3px;
+}
+
+.sex_cat {
+    text-align: center;
+    background-color: rgba(182, 118, 219, 0.527);
+    border: 2px solid rgba(255, 0, 0, 0.548);
+    border-radius: 9px;
+    padding: 1%;
+    margin: 3px;
+}
+
+
+.comment {
+    text-align: center;
+    background-color: rgba(118, 190, 219, 0.527);
+    border: 2px solid rgba(255, 0, 0, 0.548);
+    border-radius: 9px;
+    padding: 1%;
+    margin: 3px;
+}
+
+.file {
+    text-align: center;
+    background-color: rgba(163, 230, 154, 0.822);
+    border: 2px solid rgba(255, 0, 0, 0.548);
+    border-radius: 9px;
+    padding: 1%;
+    margin: 3px;
+}
+
+.button {
+    display: grid;
+    justify-content: center;
+
+}
+
+.btn {
+    border-radius: 55px;
+    background: rgba(129, 251, 255, 0.699);
+    color: rgb(15, 2, 49);
+    font-weight: bolder;
+    width: 89px;
+    height: 45px;
+    margin: 10%;
+}
+
+input:required:valid {
+    border-color: rgb(183, 0, 255);
+}

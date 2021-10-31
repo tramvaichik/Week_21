@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/registr.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="form">
+        <div class="name">
+            <label for="name" class="text"> Официальное имя Ушастого </label><br>
+            <input type="text" id="name" max=15 min=2>
+        </div>
+        <div>
+            <br> <label for="nameHome" class="text"> Домашнее имя Ушастого </label><br>
+            <input type="text" id="nameHome" maxlength=15>
+        </div>
+        <div>
+            <br> <label for="number" class="text">Возраст Ушастого</label><br>
+            <input type="number" id="age" max=23 min="0.5">
+        </div>
+        <div>
+            <br><label for="nameHuman" class="text"> Имя человека Ушастого </label><br>
+            <input type="text" id="nameHuman">
+        </div>
+        <div>
+            <br><label for="telHuman" class="text"> Телефон человека Ушастого </label><br>
+            <input type="tel" id="telHuman" name="phone"
+                pattern="/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im">
+        </div>
+        <div>
+            <br> <label for="mailHuman" class="text"> Почта человека Ушастого </label><br>
+            <input type="email" id="mailHuman">
+        </div>
+        <div class="breed">
+            <p class="text"> Порода Ушастого </p>
+            <select>
+                <option value="."> --- </option>
+                <option value="Bengali"> Бенгальская </option>
+                <option value="NevskayaMasquerade"> Невская Маскарадная </option>
+                <option value="NorwegianForest"> Норвежский лесной </option>
+                <option value="MaineCoon"> Мейн Кун </option>
+                <option value="Sphinx"> Сфинкс </option>
+                <option value="Scottish"> Скоттиш </option>
+            </select>
+        </div>
+        <div class="button">
+            <br> <button type="submit" class="btn" onclick="saved()"> Сохранить </button>
+        </div>
+        <div id="errorsInfo"></div>
+    </div>
+    <script src="./assets/js/regist.js"></script>
+</body>
+
+</html>

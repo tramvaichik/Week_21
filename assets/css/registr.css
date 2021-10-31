@@ -1,0 +1,50 @@
+.form {
+    width: 50%;
+    background: linear-gradient(45deg, rgba(76, 253, 224, 0.808), rgb(121, 250, 170), rgba(129, 255, 140, 0.699), rgba(250, 252, 120, 0.808), rgb(196, 131, 250), rgba(129, 251, 255, 0.699));
+    text-align: center;
+    background-color: rgba(67, 140, 150, 0.527);
+    border: 2px solid rgba(4, 0, 255, 0.548);
+    border-radius: 9px;
+    padding: 1%;
+    margin: 3px;
+}
+
+.text {
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        Geneva,
+        Verdana,
+        sans-serif;
+    color: rgb(18, 0, 83);
+}
+
+
+.sex_cat {
+    text-align: center;
+    background-color: rgba(182, 118, 219, 0.527);
+    border: 2px solid rgba(255, 0, 0, 0.548);
+    border-radius: 9px;
+    padding: 1%;
+    margin: 3px;
+}
+
+
+.button {
+    display: grid;
+    justify-content: center;
+
+}
+
+.btn {
+    border-radius: 55px;
+    background: rgba(129, 251, 255, 0.699);
+    color: rgb(15, 2, 49);
+    font-weight: bolder;
+    width: 89px;
+    height: 45px;
+    margin: 10%;
+}
